@@ -43,8 +43,7 @@ token_threshold = 3000
 encoding = encoding_for_model(model_name)
 make_llm_call = True
 
-# I only have one class, so just pick the first one.
-class_name = available_classes[0]
+class_name = 'Impact_theory_minilm_256'
 
 data = load_data(data_path)
 # creates list of guests for sidebar
